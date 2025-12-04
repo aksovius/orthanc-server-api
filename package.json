@@ -1,0 +1,30 @@
+{
+  "name": "orthanc-server-api",
+  "version": "1.0.0",
+  "description": "Mock Orthanc DICOM server API for testing and development",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "type-check": "tsc --noEmit",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "orthanc",
+    "dicom",
+    "medical-imaging",
+    "mock-server",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^24.10.1",
+    "express": "^5.2.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "undici": "^7.16.0"
+  }
+}
